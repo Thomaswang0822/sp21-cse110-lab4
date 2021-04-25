@@ -24,7 +24,7 @@ B. student["Grad Year"]
 C. student.greeting();
 D. student["Favorite Teacher"].name
 E. student.courseLoad[0]
-13. jb
+13. 
 A. 32, because 2 will be cast to string
 B. 1, because 3 will be casted to int, since there is no - operand for strings
 C. 3, null will be cast to int 0
@@ -32,3 +32,19 @@ D. 3null, because null will be cast to string "null"
 E. 4, because true will be cast to int 1 (false to 0)
 F. 3undefined, because undefined will be cast to string "undefined"
 E. NaN, because there isn't a valid cast available.
+14.
+A. true. Because string '2' will be cast as int 2.
+B. false. Because first char 2 > 1 using string comparison
+C. true. Because string '2' will be cast as int 2.
+D. false. Because triple equal sign does strict comparison, so different data types will always get a false.
+E. false. Because true will be cast as 1 and 1 != 2
+F. true. Because Boolean(2) will be true.
+15. === (triple equal) is strict comparison, which means 2 things to be compared must be exactly the same. == is normal comparison, and can be used to compare different types (as in question 14) with a set of rules. 
+16. JS code in another file.
+17. The result is an array [2,4,6]. When i < array.length == 3, the numbers in array will be selected and put into doSomething(), which double this number passed in and return. So each number is doubled and pushed into newArr and finally returned, and we get this result.
+18. JS code in another file.
+19.
+1
+4
+3
+2
